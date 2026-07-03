@@ -52,7 +52,9 @@ export function monthlySummary(records) {
 
   for (const record of records) {
     const key = record.date.slice(0, 7);
-    if (!byMonth[key]) {byMonth[key] = 0;}
+    if (!byMonth[key]) {
+      byMonth[key] = 0;
+    }
     byMonth[key] += record.amount;
   }
 

@@ -10,7 +10,9 @@ export function formatDate(date) {
 }
 
 export function normalizeDate(text) {
-  if (!text) {return new Date().toISOString().slice(0, 10);}
+  if (!text) {
+    return new Date().toISOString().slice(0, 10);
+  }
   return text;
 }
 

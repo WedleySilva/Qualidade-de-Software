@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
+    "@sonar/scan": "^4.3.8",
     "eslint": "^9.0.0"
   }
 }
